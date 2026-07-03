@@ -340,7 +340,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--border);text-align:center;
 <nav id="nav">
   <div class="container nav-inner">
     <div class="nav-logo">Guía<span>Dropi</span> 🇦🇷</div>
-    <a class="nav-cta" href="https://ykucich.gumroad.com/l/lmiyln" data-gumroad-single-product="true">Conseguirla · $7.92 USD</a>
+    <a class="nav-cta" href="https://paypal.me/yaninakucich/7.92USD" target="_blank" rel="noopener">Conseguirla · $7.92 USD</a>
   </div>
 </nav>
 
@@ -365,7 +365,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--border);text-align:center;
     </p>
 
     <div class="hero-cta-group">
-      <a class="btn-buy large pulse" href="https://ykucich.gumroad.com/l/lmiyln" data-gumroad-single-product="true">
+      <a class="btn-buy large pulse" href="https://paypal.me/yaninakucich/7.92USD" target="_blank" rel="noopener">
         <span>💳</span>
         <span>Quiero la guía por $7.92 USD</span>
       </a>
@@ -661,7 +661,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--border);text-align:center;
     <div class="pricing-card" style="margin-top:48px">
       <div class="pricing-header">
         <div class="pricing-eyebrow">Precio de lanzamiento 🔥</div>
-        <div class="pricing-product" data-gumroad-field="name">Guía Dropshipping Argentina con Dropi</div>
+        <div class="pricing-product">Guía Dropshipping Argentina con Dropi</div>
         <div>
           <span class="pricing-currency">$</span>
           <span class="pricing-amount">7.92</span>
@@ -684,7 +684,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--border);text-align:center;
           <div class="includes-item"><span class="includes-check">✅</span>Garantía de devolución 7 días sin preguntas</div>
         </div>
 
-        <a class="btn-buy full large pulse" href="https://ykucich.gumroad.com/l/lmiyln" data-gumroad-single-product="true">
+        <a class="btn-buy full large pulse" href="https://paypal.me/yaninakucich/7.92USD" target="_blank" rel="noopener">
           <span>🚀</span>
           <span>Quiero empezar ahora por $7.92 USD</span>
         </a>
@@ -699,8 +699,55 @@ footer{padding:48px 0 32px;border-top:1px solid var(--border);text-align:center;
   </div>
 </section>
 
+<!-- POST PURCHASE EMAIL CAPTURE -->
+<section class="section reveal" id="entrega">
+  <div class="container">
+    <div class="section-head">
+      <div class="tag">Último paso</div>
+      <h2>¿Ya <span class="grad">pagaste</span>? 🎉</h2>
+      <p>Dejanos tu email para enviarte la guía. La recibís dentro de las próximas horas.</p>
+    </div>
+
+    <div style="max-width:480px;margin:40px auto 0;background:var(--bg-card);border:1px solid var(--border);border-radius:20px;padding:32px">
+      <form action="https://formsubmit.co/ykucich1507@gmail.com" method="POST" style="display:flex;flex-direction:column;gap:14px">
+        <input type="hidden" name="_subject" value="Nueva compra — Guía Dropshipping Argentina" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://ykucich1507-cpu.github.io/material-digital/#gracias" />
+
+        <div>
+          <label style="display:block;font-size:.75rem;letter-spacing:.05em;text-transform:uppercase;color:var(--text-3);margin-bottom:6px">Nombre</label>
+          <input type="text" name="Nombre" required placeholder="Tu nombre"
+            style="width:100%;padding:12px 14px;border-radius:10px;background:var(--bg-alt);border:1px solid var(--border);color:var(--text);font-family:var(--font-body);font-size:.95rem" />
+        </div>
+
+        <div>
+          <label style="display:block;font-size:.75rem;letter-spacing:.05em;text-transform:uppercase;color:var(--text-3);margin-bottom:6px">Email</label>
+          <input type="email" name="Email" required placeholder="tu@email.com"
+            style="width:100%;padding:12px 14px;border-radius:10px;background:var(--bg-alt);border:1px solid var(--border);color:var(--text);font-family:var(--font-body);font-size:.95rem" />
+        </div>
+
+        <div>
+          <label style="display:block;font-size:.75rem;letter-spacing:.05em;text-transform:uppercase;color:var(--text-3);margin-bottom:6px">Comprobante o comentario (opcional)</label>
+          <input type="text" name="Comentario" placeholder="Ej: ya transferí por PayPal"
+            style="width:100%;padding:12px 14px;border-radius:10px;background:var(--bg-alt);border:1px solid var(--border);color:var(--text);font-family:var(--font-body);font-size:.95rem" />
+        </div>
+
+        <button type="submit" class="btn-buy" style="margin-top:8px">
+          <span>📩</span>
+          <span>Enviar y recibir la guía</span>
+        </button>
+      </form>
+      <div style="text-align:center;margin-top:16px;font-size:.75rem;color:var(--text-3)">
+        Tus datos solo se usan para enviarte la guía. Nunca se comparten.
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FOR WHO -->
 <section class="section reveal">
+
   <div class="container">
     <div class="section-head">
       <div class="tag">¿Es para vos?</div>
@@ -755,7 +802,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--border);text-align:center;
       </div>
       <div class="faq-item">
         <button class="faq-q">¿Puedo pagar la guía en cuotas? <span class="faq-icon">+</span></button>
-        <div class="faq-a">Sí, podés pagar con tarjeta de crédito o PayPal a través de Gumroad. El precio es $7.92 USD y el cobro es seguro.</div>
+        <div class="faq-a">Sí, podés pagar directo con tu cuenta de PayPal o con tarjeta a través de PayPal. El precio es $7.92 USD y el cobro es seguro.</div>
       </div>
       <div class="faq-item">
         <button class="faq-q">¿Necesito una empresa o estar inscripto en AFIP? <span class="faq-icon">+</span></button>
@@ -775,7 +822,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--border);text-align:center;
     <div class="tag">¿Listo?</div>
     <h2 style="margin-bottom:16px">El mejor momento para empezar<br/><span class="grad">era ayer. El segundo mejor es ahora.</span></h2>
     <p style="color:var(--text-2);max-width:480px;margin:0 auto 36px;font-size:1.05rem">Una venta de dropshipping y la guía ya se pagó sola. Sin stock. Sin local. Sin excusas.</p>
-    <a class="btn-buy large pulse" href="https://ykucich.gumroad.com/l/lmiyln" data-gumroad-single-product="true">
+    <a class="btn-buy large pulse" href="https://paypal.me/yaninakucich/7.92USD" target="_blank" rel="noopener">
       <span>🚀</span>
       <span>Empezar ahora por $7.92 USD</span>
     </a>
@@ -791,7 +838,7 @@ footer{padding:48px 0 32px;border-top:1px solid var(--border);text-align:center;
     <div class="footer-logo">Guía<span>Dropi</span> 🇦🇷</div>
     <div class="footer-text">Guía de dropshipping paso a paso para Argentina. 16 pasos interactivos para empezar a vender online hoy mismo.</div>
     <div style="font-size:.85rem;color:var(--text-3)">
-      Preguntas: <a href="https://ykucich.gumroad.com/l/lmiyln" class="footer-link">ykucich.gumroad.com</a>
+      Preguntas: <a href="https://paypal.me/yaninakucich" class="footer-link">paypal.me/yaninakucich</a>
     </div>
     <div class="footer-fine">© 2025 · Guía Dropshipping Argentina · Hecha con ❤️ en Cipolletti, Neuquén</div>
   </div>
@@ -830,6 +877,5 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a){
   });
 });
 </script>
-<script src="https://gumroad.com/js/gumroad.js"></script>
 </body>
 </html>
